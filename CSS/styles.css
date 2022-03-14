@@ -31,4 +31,28 @@ margin: 5%;
 .form{
     background-image: url("../assets/backgrounds/c_image.jpg");
 }
+input.form-control, textarea.form-control{
+    background-color: transparent;
+    border: 2px white solid;
+    color: white;
+}
 
+input.form-control:focus{
+    background-color: transparent;
+}
+textarea.form-control:focus{
+    background-color: transparent;
+}
+input.form-control::placeholder{
+color: white;
+}
+.white::placeholder{
+    color: white;
+}
+.white{
+    color: white;
+}
+footer a{
+    margin-right: 2vw;
+    font-size: 2vw;
+}
