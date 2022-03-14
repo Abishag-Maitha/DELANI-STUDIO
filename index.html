@@ -27,7 +27,7 @@
      
         <main>
             <!-- This is the About Us section -->
-            <section class="w-75 p-4 mt-5 mb-5 mx-auto">
+            <section class="container-fluid">
                 <h3 class="text-center text-uppercase"> About Us</h3>
                 <p class="text-muted text-center fs-5">
                     When you work with us,you are part of a team of committed collaborators.All aspects of our software development are intergrated active and agile.
@@ -35,43 +35,99 @@
                     we start each project by understanding your business goals,the users needs and product requirements,
                     The we help to translate them into effective and elegant solutions
                 </p>
+                  <!-- This is the Services section -->
             </section>
-            <!-- This is the Services section -->
-            <section class="w-75 d-flex flex-column justify-content-center align-items-center mx-auto p-5 mb-5 mt-5" id="services">
+            <section class="container-fluid" id="services">
                 <h3 class="text-center text-light text-uppercase mb-5">Services</h3>
                 <p class=" text-center text-light fs-5 lh-lg">Before we sign contract or write a line of code our team, will spend necessary time needed to understand your product vision
                 The outcome of this scoping session is a proposal or high-level statement of work based on your requirements, we can provide a complete offering or just pieces you need.</p>
             </section>
-            <section>
-              <!-- What we do section -->
+            <!-- What we do section -->
+            <section class="container-fluid row">  
                 <h3 class="text-center text-muted text-uppercase ">What We Do</h3>
-                <div class="card-group">
-                  <div class="card">
-                    <img src="assets/services_icons/design_icon.png" class="card-img-top" alt="design">
-                    <div class="card-body">
-                      <h5 class="card-title">DESIGN</h5>
-                      <p class="card-text" id="card-text">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-                    </div>
+                <div class="col-md-4">
+                    <img src="assets/services_icons/design_icon.png" alt="design">              
+                      <h5 class="text-center">DESIGN</h5>
+                      <p class="description">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>                    
                   </div>
-                  <div class="card">
-                    <img src="assets/services_icons/dev_icon.png" class="card-img-top" alt="development">
-                    <div class="card-body">
-                      <h5 class="card-title">DEVELOPMENT</h5>
-                      <p class="card-text" id="card-text">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-                    </div>
+
+                  <div class="col-md-4">
+                    <img src="assets/services_icons/dev_icon.png" alt="development">                    
+                      <h5 class="text-center">DEVELOPMENT</h5>
+                      <p class="development">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>                  
                   </div>
-                  <div class="card">
-                    <img src="assets/services_icons/product_icon.png" class="card-img-top" alt="product">
-                    <div class="card-body">
-                      <h5 class="card-title">PRODUCT MANAGEMENT</h5>
-                      <p class="card-text" id="card-text">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
-                    </div>
+
+                  <div class="col-md-4">
+                    <img src="assets/services_icons/product_icon.png" alt="product">                   
+                      <h5 class="text-center">PRODUCT MANAGEMENT</h5>
+                      <p class="product">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>                  
                   </div>
                 </div>
+              </section>
+        <!-- Portfolio section. -->
+        <section class="container-fluid portfolio" >  
+          <h3 class="text-center text-muted text-uppercase ">PORTFOLIO</h3>
+
+              <!-- first section -->
+              <div class="row">
+                <div class="col-md-3 d-block p-4" id="weddings">
+                  <p class="hide">Weddings</p>
+                  <img src="assets/portfolio/work4.jpg" alt="">
+                </div>
+                <div class="col-md-3 d-block p-4" id="corporate">
+                  <p class="hide">Corporate Functions</p>
+                  <img src="assets/portfolio/work3.jpg" alt="">
+                </div>
+                <div class="col-md-3 p-4 d-block" id="outdoor">
+                  <p class="hide">Travel Shoots</p>
+                  <img src="assets/portfolio/work2.jpg" alt="">
+                </div>
+                <div class="col-md-3 p-4 d-block" id="parties">
+                  <p class="hide">Bridal and baby showers, <br> birthday,graduation <br> and all other parties</p>
+                  <img src="assets/portfolio/work1.jpg" alt="">
+                </div>
+              </div>
+              <!-- second section -->
+              <div class="row">
+                <div class="col-md-3 p-4 d-block" id="portraits">
+                  <p class="hide">Portraits and profession passports</p>
+                  <img src="assets/portfolio/work5.jpg" alt="">
+                </div>
+                <div class="col-md-3 p-4 d-block" id="lifestyle">
+                  <p class="hide">Lifestyle shoots in hotels, holidays places etc</p>
+                  <img src="assets/portfolio/work6.jpg" alt="">
+                </div>
+                <div class="col-md-3 p-4 d-block" id="fashion">
+                  <p class="hide">Fashion photos</p> 
+                  <img src="assets/portfolio/work7.jpg" alt="">
+                </div>
+                <div class="col-md-3 p-4 d-block" id="other-shoots">
+                  <p class="hide">Baby bump shoots, family shoots etc</p> 
+                  <img src="assets/portfolio/work8.jpg" alt="">
+                </div>
+              </div>
+               
             </section>
+            <!-- contacts section -->
             <section>
+              <section class="form w-75 d-flex flex-column justify-content-center align-items-center mx-auto p-5 mb-5 mt-5">  
+                <h3 class="text-center text-muted text-uppercase ">CONTACT US</h3>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Name..." aria-label="name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Email..." aria-label="email">
+                  </div>
+                </div> 
+                <div class="row text-light">
+                  <input type="text" class="form-control" placeholder="Type message here" aria-label="Type message here">
+                </div>
 
             </section>
+
+
+
         </main>
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  -->
