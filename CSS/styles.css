@@ -22,9 +22,6 @@ body {
 .hide{
     display: none;
 }
-.portfolio{
-margin: 5%;
-}
 .design,.development,.product{
     display: none;
 }
@@ -56,8 +53,24 @@ footer a{
     margin-right: 2vw;
     font-size: 2vw;
 }
-/* .portfolio p{
-    transform: translateY(5vw);
-    color: brown;
-    border: 1px solid white;
-} */
+ .portfolio p{
+    color:white;
+    border: 3px solid white;
+    padding: 50%, 50%;
+    text-align: center;
+    display: none;
+}
+.portfolio div{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  width: 20%; 
+  height: 15vw;
+  text-align: center;
+  margin-right: 2vw;
+  padding: 5vw;
+} 
+p.red{
+    color: red;
+    border: 2px solid red;
+}
