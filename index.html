@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <header class="container-fluid h-75 p-5">
@@ -65,7 +66,7 @@
                 </div>
               </section>
         <!-- Portfolio section. -->
-        <section class="container-fluid portfolio text-center justify-content-center" >  
+        <section class="container-fluid portfolio text-center justify-content-center align-items-center" >  
           <h3 class="text-center text-muted text-uppercase ">PORTFOLIO</h3>
 
               <!-- first section -->
@@ -148,7 +149,7 @@
                     <input type="text" class="form-control text-light white" placeholder="Name..." aria-label="name">
                   </div>
                   <div class="col">
-                    <input type="text" class="form-control text-light white" placeholder="Email..." aria-label="email">
+                    <input type="email" class="form-control text-light white" placeholder="Email..." aria-label="email">
                   </div>
                 </div> 
                 <div class="form-floating mt-5">
@@ -156,9 +157,10 @@
                   <label for="floatingTextarea2">Your message here...</label>
                 </div>
                 <div class="row text-light mt-5">
-                <button class="btn btn-warning" type="Submit" id="button">
+                <button class="btn btn-warning sbmt" type="Submit" id="liveAlertBtn">
                     Submit
                 </button>
+                <div id="liveAlertPlaceholder"></div>
                 </div>
             </section>
             
