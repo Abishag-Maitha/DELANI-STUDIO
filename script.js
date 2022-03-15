@@ -1,4 +1,5 @@
-
 $(document).ready(function(){
-    $(hide).hover(display)
-});
+    $(".col-md-4").click(function(){
+      $(p).toggle-up();
+    });
+  });
