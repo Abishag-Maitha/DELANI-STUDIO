@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    $(".col-md-4").click(function(){
-      $(p).toggle-up();
+    $(".bt").click(function(){
+        $(this).find("p").slideToggle(500).closest(".bt").find("img").slideToggle(700)
+      
     });
   });
